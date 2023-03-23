@@ -808,13 +808,6 @@ select {
   section {
     padding: 50px 0;
   }
-/* @media only screen and (max-width: 480px) {
-  .bg-img {
-    width: 100%;
-    padding: 10px; 
-  }
-  } */
-
   .inner-padding {
     padding: 50px 30px !important;
   }
