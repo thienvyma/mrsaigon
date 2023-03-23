@@ -118,10 +118,10 @@ $(function () {
         var imgSrc = $(this).children('img').attr('src');
         $(this).parent().css({
             'background-image': 'url(' + imgSrc + ')',
-            'width': '100vw',
             'background-size': 'cover',
             'background-attachment': 'fixed',
             'background-position': 'center',
+            'background-repeat': 'no-repeat'
         });
         $(this).parent().addClass('bg-img');
         $(this).remove();
