@@ -119,6 +119,7 @@ $(function () {
         $(this).parent().css({
             'background-image': 'url(' + imgSrc + ')',
             'background-size': 'cover',
+            'background-attachment': 'scroll',
             'background-position': 'center',
         });
         $(this).parent().addClass('bg-img');
