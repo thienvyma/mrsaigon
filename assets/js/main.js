@@ -118,7 +118,8 @@ $(function () {
         var imgSrc = $(this).children('img').attr('src');
         $(this).parent().css({
             'background-image': 'url(' + imgSrc + ')',
-            'background-size': 'cover',
+            'width': '100vw',
+            'height': '100vh',
             'background-attachment': 'fixed',
             'background-position': 'center',
         });
