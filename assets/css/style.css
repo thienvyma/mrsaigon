@@ -808,6 +808,7 @@ select {
   section {
     padding: 50px 0;
   }
+
   .inner-padding {
     padding: 50px 30px !important;
   }
