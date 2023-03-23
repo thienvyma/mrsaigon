@@ -746,7 +746,7 @@
     .navbar-actions-wrap {
         position: absolute;
         top: 50%;
-        right: -60px;
+        right: 60px;
         @include prefix(transform, translateY(-50%), webkit moz ms o);
     }
 

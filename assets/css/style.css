@@ -47,7 +47,7 @@ body {
 
 body {
   background-color: #ffffff;
-  font-family: "Poppins";
+  font-family: "Mali";
   font-size: 14px;
   font-weight: 400;
   color: #9b9b9b;
@@ -1133,7 +1133,7 @@ h4,
 h5,
 h6 {
   color: #282828;
-  font-family: "Poppins";
+  font-family: "Mali";
   font-weight: 600;
   line-height: 1.2;
   text-transform: capitalize;
@@ -1293,7 +1293,7 @@ h6 {
 }
 
 .page-title-layout2 .pagetitle__subheading {
-  font-family: "Poppins";
+  font-family: "Mali";
   font-size: 12px;
   margin-bottom: 9px;
 }
@@ -1339,7 +1339,7 @@ h6 {
 }
 
 .page-title-layout8 .pagetitle__heading {
-  font-family: "Poppins";
+  font-family: "Mali";
   font-size: 18px;
   font-weight: 600;
   color: #222222;
@@ -1412,7 +1412,7 @@ h6 {
     Buttons
 ----------------------*/
 .btn {
-  font-family: "Poppins";
+  font-family: "Mali";
   text-transform: capitalize;
   position: relative;
   font-size: 13px;
@@ -1875,7 +1875,7 @@ textarea.form-control {
 }
 
 .pagination li a {
-  font-family: "Poppins";
+  font-family: "Mali";
   font-size: 16px;
   font-weight: 600;
   display: block;
@@ -2447,7 +2447,7 @@ textarea.form-control {
   color: #ffffff;
   font-weight: 600;
   font-size: 10px;
-  font-family: "Poppins";
+  font-family: "Mali";
 }
 
 /* module-search  */
@@ -2699,7 +2699,7 @@ textarea.form-control {
 }
 
 .cart-popup .cart-subtotal span {
-  font-family: "Poppins";
+  font-family: "Mali";
   line-height: 1;
   font-weight: 700;
 }
@@ -2910,7 +2910,7 @@ textarea.form-control {
   .navbar-actions-wrap {
     position: absolute;
     top: 50%;
-    right: 60px;
+    right: -60px;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -3821,7 +3821,7 @@ textarea.form-control {
 }
 
 .slider-layout2 .slide__desc {
-  font-family: "Poppins";
+  font-family: "Mali";
   font-size: 16px;
   font-weight: 600;
 }
@@ -4242,7 +4242,7 @@ textarea.form-control {
 
 .portfolio-filter li a {
   position: relative;
-  font-family: "Poppins";
+  font-family: "Mali";
   color: #282828;
   font-size: 14px;
   font-weight: 600;
@@ -5612,7 +5612,7 @@ textarea.form-control {
 
 .filter-option-view span,
 .sort-box span {
-  font-family: "Poppins";
+  font-family: "Mali";
   color: #282828;
   font-size: 14px;
   font-weight: 700;
@@ -6242,7 +6242,7 @@ textarea.form-control {
 }
 
 .widget-poducts .widget-product-item .widget__product-price {
-  font-family: "Poppins";
+  font-family: "Mali";
   font-size: 13px;
   font-weight: 600;
   color: #d3a971;
