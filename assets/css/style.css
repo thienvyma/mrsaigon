@@ -804,9 +804,15 @@ select {
 }
 
 /* Mobile Phones and tablets */
-@media only screen and (min-width: 320px) and (max-width: 767px) {
+/* @media only screen and (min-width: 320px) and (max-width: 767px) {
   section {
     padding: 50px 0;
+  } */
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 10px; 
+  }
   }
 
   .inner-padding {
