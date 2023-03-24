@@ -118,12 +118,25 @@ $(function () {
         var imgSrc = $(this).children('img').attr('src');
         $(this).parent().css({
             'background-image': 'url(' + imgSrc + ')',
-            'background-size': 'cover',
+            'background-size': '150%, auto',
             'background-position': 'center',
         });
         $(this).parent().addClass('bg-img');
         $(this).remove();
     });
+
+    $(window).scroll(function() {
+        var scrolledY = $(window).scrollTop();
+        var width = $(window).width()
+        console.log(width)
+        if (width < 992) {
+            $('.bg-parallax').css('background-position-y', ((scrolledY)) + 'px');
+        } else {
+            $('.bg-parallax').css('background-attachment', 'fixed');
+        }
+                    // $('.bg-parallax').css('background-position-y', ((scrolledY)) + 'px');
+
+    });    
 
     /*==========   Increase and Decrease Input Value   ==========*/
     // Increase Value

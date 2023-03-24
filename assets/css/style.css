@@ -1120,7 +1120,7 @@ select {
 }
 
 .bg-parallax {
-  background-attachment: scroll;
+  background-attachment: fixed;
 }
 
 /*-------------------------
