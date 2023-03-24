@@ -1084,6 +1084,11 @@ select {
   z-index: 1;
 }
 
+.ahihi-img {
+  position: relative;
+  z-index: 1;
+}
+
 .bg-overlay:before {
   content: "";
   position: absolute;

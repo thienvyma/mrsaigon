@@ -114,11 +114,34 @@ $(function () {
     });
 
     /*==========   Set Background-img to section   ==========*/
+    $('.ahihi-img').each(function () {
+        var imgSrc = $(this).children('img').attr('src');
+        var width = $(window).width()
+        if (width < 992) {
+            //mobile
+            $(this).parent().css({
+                'background-image': 'url(' + imgSrc + ')',
+                'background-size': '150%, auto',
+                'min-height': '100%',
+                'background-position': 'center',
+            });
+            //
+        } else {
+            $(this).parent().css({
+                'background-image': 'url(' + imgSrc + ')',
+                'background-size': 'cover',
+                'background-position': 'center',
+            });
+        }
+        $(this).parent().addClass('ahihi-img');
+        $(this).remove();
+    });
+
     $('.bg-img').each(function () {
         var imgSrc = $(this).children('img').attr('src');
         $(this).parent().css({
             'background-image': 'url(' + imgSrc + ')',
-            'background-size': '150%, auto',
+            'background-size': 'cover',
             'background-position': 'center',
         });
         $(this).parent().addClass('bg-img');
@@ -130,7 +153,9 @@ $(function () {
         var width = $(window).width()
         console.log(width)
         if (width < 992) {
+            //mobile
             $('.bg-parallax').css('background-position-y', ((scrolledY)) + 'px');
+            //
         } else {
             $('.bg-parallax').css('background-attachment', 'fixed');
         }
