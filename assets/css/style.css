@@ -2910,7 +2910,7 @@ textarea.form-control {
   .navbar-actions-wrap {
     position: absolute;
     top: 50%;
-    right: - 60px;
+    right: 60px;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
